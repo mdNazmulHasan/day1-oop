@@ -22,5 +22,6 @@ public class Main {
 //        System.out.println(prepaidSim.isCanCall());
         PostPaidSim postPaidSim = new PostPaidSim(0, "sample");
         System.out.println(postPaidSim.isCanCall());
+//        Sim sim=new Sim();
     }
 }

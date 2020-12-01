@@ -9,6 +9,11 @@ public class PostPaidSim extends Sim {
     }
 
     @Override
+    void call() {
+        System.out.println("calling");
+    }
+
+    @Override
     public boolean isCanCall() {
         return true;
     }

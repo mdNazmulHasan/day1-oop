@@ -1,6 +1,6 @@
 package com.nazmul;
 
-public class Sim {
+public abstract class Sim {
     int balance;
     boolean canCall;
 
@@ -11,6 +11,7 @@ public class Sim {
     public int getBalance() {
         return balance;
     }
+    abstract void call();
 
     public void setBalance(int balance) {
         this.balance = balance;

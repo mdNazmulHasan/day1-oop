@@ -11,4 +11,9 @@ public class PrepaidSim extends Sim {
         super(balance);
         this.userName = userName;
     }
+
+    @Override
+    void call() {
+        System.out.println("calling");
+    }
 }
