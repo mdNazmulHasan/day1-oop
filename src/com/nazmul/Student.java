@@ -3,4 +3,12 @@ package com.nazmul;
 public class Student {
     String firstName;
     String lastName;
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 }
