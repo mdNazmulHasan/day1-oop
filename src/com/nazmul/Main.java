@@ -23,8 +23,9 @@ public class Main {
 //        PostPaidSim postPaidSim = new PostPaidSim(0, "sample");
 //        System.out.println(postPaidSim.isCanCall());
 //        Sim sim=new Sim();
-        Car car = CarShop.getInstance().sellCar();
-        Car car2 = CarShop.getInstance().sellCar();
-        System.out.println(CarShop.getInstance().carSold);
+        Car sportCar = CarShop.getInstance().sellCar("SportCar");
+        Car flyingCar = CarShop.getInstance().sellCar("FlyingCar");
+        sportCar.start(); //Sport car started
+        flyingCar.start(); //Flying car started
     }
 }
