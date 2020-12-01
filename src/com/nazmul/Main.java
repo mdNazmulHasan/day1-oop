@@ -8,5 +8,7 @@ public class Main {
         firstStudent.firstName = "Android";
         firstStudent.lastName = "Studio";
         System.out.println(firstStudent.firstName + firstStudent.lastName);
+        StudentWithConstructor studentWithConstructor = new StudentWithConstructor("Java", "Basic");
+        System.out.println(studentWithConstructor.lastName);
     }
 }
