@@ -20,8 +20,11 @@ public class Main {
 //        System.out.println(students);
 //        PrepaidSim prepaidSim = new PrepaidSim(0, "sample");
 //        System.out.println(prepaidSim.isCanCall());
-        PostPaidSim postPaidSim = new PostPaidSim(0, "sample");
-        System.out.println(postPaidSim.isCanCall());
+//        PostPaidSim postPaidSim = new PostPaidSim(0, "sample");
+//        System.out.println(postPaidSim.isCanCall());
 //        Sim sim=new Sim();
+        Car car = CarShop.getInstance().sellCar();
+        Car car2 = CarShop.getInstance().sellCar();
+        System.out.println(CarShop.getInstance().carSold);
     }
 }
